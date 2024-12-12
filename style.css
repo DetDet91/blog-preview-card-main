@@ -48,6 +48,11 @@ header h5{
     background-color: hsl(47, 88%, 63%);
 }
 
+header h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
 div p{
     color:  hsl(0, 0%, 42%);
 }
