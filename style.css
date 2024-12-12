@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap'); /*importing fonts*/
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Figtree';
+    background-color: hsl(47, 88%, 63%);
+    
+}
+
+article{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0,0,0, .1);
+    width: 320px;
+    max-width: 100%;
+    padding: 15px;
+    text-align: left;
+      
+}
+
+figure {
+    margin: 0; /* Remove margin around figure */
+    padding:5px;
+    display: flex;
+    justify-content:flex-start; /* Align the image to the left */
+}
+
+figure img{
+    width:100%;
+    max-width: 100%;
+    height:auto;
+    border-radius: 5px; 
+
+}
+
+header h5{
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+
+section p{
+    color:  hsl(0, 0%, 42%);
+}
+
+
+footer img{
+    width: 40px;
+    height: auto;
+}
+footer p{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.attribution {
+    font-size: 12px;
+}
+
+.attribution a {
+    
+    text-decoration: none; /* No underline by default */
+    font-size: 14px; /* Adjust size */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for hover/focus states */
+}
+
+.attribution a:hover {
+    color: red; /* Change text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.attribution a:focus {
+    color: #FF5722; /* Change text color on focus */
+    outline: 2px solid #FF5722; /* Add a focus indicator */
+    outline-offset: 2px; /* Add spacing between the link and outline */
+}
+
